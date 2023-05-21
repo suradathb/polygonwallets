@@ -1,4 +1,4 @@
-import React, { Component } from "react";
+import React from "react";
 import { Link } from "react-router-dom";
 import './Header.css';
 
@@ -6,20 +6,6 @@ class Header extends React.Component {
   constructor(props) {
     super(props);
   }
-
-  componentWillMount() {}
-
-  componentDidMount() {}
-
-  componentWillReceiveProps(nextProps) {}
-
-  shouldComponentUpdate(nextProps, nextState) {}
-
-  componentWillUpdate(nextProps, nextState) {}
-
-  componentDidUpdate(prevProps, prevState) {}
-
-  componentWillUnmount() {}
 
   render() {
     return (
@@ -29,7 +15,7 @@ class Header extends React.Component {
             <div className="top-header d-none d-sm-flex justify-content-between align-items-center">
               <div className="contact">
                 <Link href="tel:+1234567890" className="tel">
-                  <i className="fa fa-phone" aria-hidden="true"></i>+1234567890
+                  <i className="fa fa-phone" aria-hidden="true"></i>026597000
                 </Link>
                 <Link href="mailto:info@yourmail.com">
                   <i className="fa fa-envelope" aria-hidden="true"></i>
@@ -54,6 +40,11 @@ class Header extends React.Component {
                   <li>
                     <Link href="#">
                       <i className="fa fa-twitter"></i>
+                    </Link>
+                  </li>
+                  <li>
+                    <Link href="#">
+                      <i className="fa fa-language"></i>
                     </Link>
                   </li>
                 </ul>

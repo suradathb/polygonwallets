@@ -5,15 +5,15 @@ class Abount extends React.Component {
     super(props);
   }
 
-  componentWillMount() {}
+  UNSAFE_componentWillMount() {}
 
   componentDidMount() {}
 
-  componentWillReceiveProps(nextProps) {}
+  UNSAFE_componentWillReceiveProps(nextProps) {}
 
   shouldComponentUpdate(nextProps, nextState) {}
 
-  componentWillUpdate(nextProps, nextState) {}
+  UNSAFE_componentWillUpdate(nextProps, nextState) {}
 
   componentDidUpdate(prevProps, prevState) {}
 

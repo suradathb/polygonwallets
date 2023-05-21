@@ -5,19 +5,6 @@ class Home extends React.Component {
     super(props);
   }
 
-  componentWillMount() {}
-
-  componentDidMount() {}
-
-  componentWillReceiveProps(nextProps) {}
-
-  shouldComponentUpdate(nextProps, nextState) {}
-
-  componentWillUpdate(nextProps, nextState) {}
-
-  componentDidUpdate(prevProps, prevState) {}
-
-  componentWillUnmount() {}
 
   render() {
     return (
@@ -31,10 +18,9 @@ class Home extends React.Component {
                   <div className="swiper-wrapper">
                     <div className="swiper-slide slide-content d-flex align-items-center">
                       <div className="single-slide">
-                        <h1 data-aos="fade-right" data-aos-delay="200">
-                          Creative
-                          <br /> Multipurpose websites
-                        </h1>
+                        <h2 data-aos="fade-right" data-aos-delay="200">
+                          <br /> บริษัทหลักทรัพย์ กรุงศรี จำกัด (มหาชน)
+                        </h2>
                         <p data-aos="fade-right" data-aos-delay="600">
                           Crafted by innovative creators for Expecting Peoples’s
                           predefined dummy text
@@ -107,7 +93,11 @@ class Home extends React.Component {
         <section className="cta" data-aos="fade-up" data-aos-delay="0">
           <div className="container">
             <div className="cta-content d-xl-flex align-items-center justify-content-around text-center text-xl-left">
-              <div className="content" data-aos="fade-right" data-aos-delay="200">
+              <div
+                className="content"
+                data-aos="fade-right"
+                data-aos-delay="200"
+              >
                 <h2>FOR BUILDING THE MODERN WEBSITE</h2>
                 <p>
                   Packed with all the goodies you can get, Kallyas is our
@@ -797,7 +787,11 @@ class Home extends React.Component {
         <section className="cta cta2" data-aos="fade-up" data-aos-delay="0">
           <div className="container">
             <div className="cta-content d-xl-flex align-items-center justify-content-around text-center text-xl-left">
-              <div className="content" data-aos="fade-right" data-aos-delay="200">
+              <div
+                className="content"
+                data-aos="fade-right"
+                data-aos-delay="200"
+              >
                 <h2>FOR BUILDING THE MODERN WEBSITE</h2>
                 <p>
                   Packed with all the goodies you can get, Kallyas is our
