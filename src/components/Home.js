@@ -19,12 +19,12 @@ class Home extends React.Component {
                     <div className="swiper-slide slide-content d-flex align-items-center">
                       <div className="single-slide">
                         <h2 data-aos="fade-right" data-aos-delay="200">
-                          <br /> บริษัทหลักทรัพย์ กรุงศรี จำกัด (มหาชน)
+                          Tick by Tick
+                          <br/>crypto API
                         </h2>
                         <p data-aos="fade-right" data-aos-delay="600">
-                          Crafted by innovative creators for Expecting Peoples’s
-                          predefined dummy text
-                          <br /> chunks as necessary, making this the first.
+                        See each and every Trade & Quote happening in the US in real time,  
+                          <br /> and access trillions of rows of historical tick data in an instant using our crypto API.
                         </p>
                         <a
                           data-aos="fade-right"
@@ -47,13 +47,12 @@ class Home extends React.Component {
                     <div className="swiper-slide slide-content d-flex align-items-center">
                       <div className="single-slide">
                         <h1 data-aos="fade-right" data-aos-delay="200">
-                          Creative
-                          <br /> Multipurpose websites
+                        Unlimited REST
+                          <br /> crypto API
                         </h1>
                         <p data-aos="fade-right" data-aos-delay="600">
-                          Crafted by innovative creators for Expecting Peoples’s
-                          predefined dummy text
-                          <br /> chunks as necessary, making this the first.
+                        There is no limit to how much you can use our crypto data API.  
+                          <br /> No maximum queries per minute or daily call limits on all premium plans.     
                         </p>
                         <a
                           data-aos="fade-right"
