@@ -1,0 +1,17 @@
+{
+  "lang_en": "English",
+  "lang_th": "Thai",
+
+  "products": "Product",
+  "doc": "Document",
+  "company": "Company",
+  "pricing": "Pricing",
+  "content": "Content",
+  "contactus":"Contact Us",
+  "login":"Login",
+  "register" : "Register",
+  "welcome_message": "Hello, {{name}}. Welcome to {{website}}!",
+  "read_more": "Read more",
+  "post": "Post :",
+  "source_code": "Source Code :"
+}

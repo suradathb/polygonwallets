@@ -1,5 +1,12 @@
-.Logo-Header{
-    width: 100px;
-    height: 100px;
-    margin: 0px;
+.Logo-Header {
+  width: 100px;
+  height: 100px;
+  margin: 0px;
+}
+
+.HeaderAbount {
+  /* background-color: rgba(1, 1, 17, 0.53); */
+  background-color: #06022c;
+  color: #fff;
+  z-index: 1000;
 }

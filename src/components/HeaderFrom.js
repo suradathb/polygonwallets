@@ -4,7 +4,7 @@ import './Header.css';
 import LanguageSwitcher from "../LanguageSwitcher";
 import {withTranslation} from 'react-i18next';
 
-class Header extends React.Component {
+class HeaderFrom extends React.Component {
   constructor(props) {
     super(props);
   }
@@ -13,7 +13,7 @@ class Header extends React.Component {
     const {t} = this.props;
     return (
       <>
-        <header className="position-absolute w-100">
+        <header className="HeaderAbount w-100">
           <div className="container">
             <div className="top-header d-none d-sm-flex justify-content-between align-items-center">
               <div className="contact">
@@ -144,89 +144,9 @@ class Header extends React.Component {
             </nav>
           </div>
         </header>
-        <section className="hero">
-          <div className="container">
-            <div className="row">
-              <div className="col-12 offset-md-1 col-md-11">
-                <div className="swiper-container hero-slider">
-                  <div className="swiper-wrapper">
-                    <div className="swiper-slide slide-content d-flex align-items-center">
-                      <div className="single-slide">
-                        <h2 data-aos="fade-right" data-aos-delay="200">
-                          Demo Wallets
-                          <br />
-                          crypto API
-                        </h2>
-                        <p data-aos="fade-right" data-aos-delay="600">
-                          See each and every Trade & Quote happening in the US
-                          in real time,
-                          <br /> and access trillions of rows of historical tick
-                          data in an instant using our crypto API.
-                        </p>
-                        <a
-                          data-aos="fade-right"
-                          data-aos-delay="900"
-                          href="#"
-                          className="btn btn-primary"
-                        >
-                          See More
-                        </a>
-                        <a
-                          data-aos="fade-right"
-                          data-aos-delay="900"
-                          href="#"
-                          className="btn btn-primary"
-                        >
-                          Get Now
-                        </a>
-                      </div>
-                    </div>
-                    {/* <div className="swiper-slide slide-content d-flex align-items-center">
-                      <div className="single-slide">
-                        <h1 data-aos="fade-right" data-aos-delay="200">
-                        Demo Wallets
-                          <br /> crypto API
-                        </h1>
-                        <p data-aos="fade-right" data-aos-delay="600">
-                        There is no limit to how much you can use our crypto data API.  
-                          <br /> No maximum queries per minute or daily call limits on all premium plans.     
-                        </p>
-                        <a
-                          data-aos="fade-right"
-                          data-aos-delay="900"
-                          href="#"
-                          className="btn btn-primary"
-                        >
-                          See More
-                        </a>
-                        <a
-                          data-aos="fade-right"
-                          data-aos-delay="900"
-                          href="#"
-                          className="btn btn-primary"
-                        >
-                          Get Now
-                        </a>
-                      </div>
-                    </div> */}
-                  </div>
-                </div>
-              </div>
-            </div>
-            {/* <!-- Add Control --> */}
-            <span className="arr-left">
-              <i className="fa fa-angle-left"></i>
-            </span>
-            <span className="arr-right">
-              <i className="fa fa-angle-right"></i>
-            </span>
-          </div>
-          <div className="texture"></div>
-          <div className="diag-bg"></div>
-        </section>
       </>
     );
   }
 }
 
-export default withTranslation()(Header);
+export default withTranslation()(HeaderFrom);

@@ -1,18 +1,21 @@
+// i18n.js
 import i18n from 'i18next';
-import XHR from 'i18next-xhr-backend';
-import {reactI18nextModule} from 'react-i18next';
+import { initReactI18next } from 'react-i18next';
 
-i18n.use(XHR).use(reactI18nextModule).init({
-    fallbackLng:'th',
-    ns:['trans'],
-    defaultNS:'trans',
-    debug:true,
-    interpolation:{
-        escapeValue:false
+import enTranslation from './locale/en/trans.json';
+import thTranslation from './locale/th/trans.json';
+
+i18n.use(initReactI18next).init({
+  lng: 'en', // Set the default language
+  fallbackLng: 'en', // Fallback language in case translation is missing
+  resources: {
+    en: {
+      translation: enTranslation
     },
-    react:{
-        wait:true
+    th: {
+      translation: thTranslation
     }
-})
+  }
+});
 
-export default i18n
+export default i18n;

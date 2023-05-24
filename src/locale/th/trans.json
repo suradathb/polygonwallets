@@ -1,0 +1,17 @@
+{
+  "lang_en": "English",
+  "lang_th": "Thai",
+
+  "products": "สินค้า",
+  "doc": "เอกสาร",
+  "company": "บริษัท",
+  "pricing": "ราคาหุ้น",
+  "content": "บทความ",
+  "contactus":"ติดต่อ",
+  "login":"เข้าสู่ระบบ",
+  "register":"สมัครสมาชิก",
+  "welcome_message": "สวัสดี, {{name}}. ยินดีต้อนรับสู่เว็บไซต์ {{website}}!",
+  "read_more": "อ่านบทความต่อ",
+  "post": "บทความ :",
+  "source_code": "ซอร์สโค๊ด :"
+}

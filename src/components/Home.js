@@ -1,94 +1,15 @@
 import React from "react";
+import Header from "./Header";
 
 class Home extends React.Component {
   constructor(props) {
     super(props);
   }
 
-
   render() {
     return (
       <>
-        {/* <!-- Hero Start --> */}
-        <section className="hero">
-          <div className="container">
-            <div className="row">
-              <div className="col-12 offset-md-1 col-md-11">
-                <div className="swiper-container hero-slider">
-                  <div className="swiper-wrapper">
-                    <div className="swiper-slide slide-content d-flex align-items-center">
-                      <div className="single-slide">
-                        <h2 data-aos="fade-right" data-aos-delay="200">
-                          Tick by Tick
-                          <br/>crypto API
-                        </h2>
-                        <p data-aos="fade-right" data-aos-delay="600">
-                        See each and every Trade & Quote happening in the US in real time,  
-                          <br /> and access trillions of rows of historical tick data in an instant using our crypto API.
-                        </p>
-                        <a
-                          data-aos="fade-right"
-                          data-aos-delay="900"
-                          href="#"
-                          className="btn btn-primary"
-                        >
-                          See More
-                        </a>
-                        <a
-                          data-aos="fade-right"
-                          data-aos-delay="900"
-                          href="#"
-                          className="btn btn-primary"
-                        >
-                          Get Now
-                        </a>
-                      </div>
-                    </div>
-                    <div className="swiper-slide slide-content d-flex align-items-center">
-                      <div className="single-slide">
-                        <h1 data-aos="fade-right" data-aos-delay="200">
-                        Unlimited REST
-                          <br /> crypto API
-                        </h1>
-                        <p data-aos="fade-right" data-aos-delay="600">
-                        There is no limit to how much you can use our crypto data API.  
-                          <br /> No maximum queries per minute or daily call limits on all premium plans.     
-                        </p>
-                        <a
-                          data-aos="fade-right"
-                          data-aos-delay="900"
-                          href="#"
-                          className="btn btn-primary"
-                        >
-                          See More
-                        </a>
-                        <a
-                          data-aos="fade-right"
-                          data-aos-delay="900"
-                          href="#"
-                          className="btn btn-primary"
-                        >
-                          Get Now
-                        </a>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            {/* <!-- Add Control --> */}
-            <span className="arr-left">
-              <i className="fa fa-angle-left"></i>
-            </span>
-            <span className="arr-right">
-              <i className="fa fa-angle-right"></i>
-            </span>
-          </div>
-          <div className="texture"></div>
-          <div className="diag-bg"></div>
-        </section>
-        {/* <!-- Hero End -->
-    <!-- Call To Action Start --> */}
+      <Header/>
         <section className="cta" data-aos="fade-up" data-aos-delay="0">
           <div className="container">
             <div className="cta-content d-xl-flex align-items-center justify-content-around text-center text-xl-left">
@@ -121,8 +42,8 @@ class Home extends React.Component {
         <section className="services">
           <div className="container">
             <div className="title text-center">
-              <h6>Our Speakers</h6>
-              <h1 className="title-blue">Why Choose Us</h1>
+              <h6>Demo Our Speakers</h6>
+              <h1 className="title-blue">Demo Why Choose Us</h1>
             </div>
             <div className="container">
               <div className="row">
@@ -139,7 +60,7 @@ class Home extends React.Component {
                       alt="Web Development"
                     />
                     <div className="media-body">
-                      <h5>Web Development</h5>
+                      <h5>Demo Web Development</h5>
                       Donec volutpat tincidunt neque, vitae lobortis libero
                       mattis sed tempus.
                     </div>
@@ -158,7 +79,7 @@ class Home extends React.Component {
                       alt="Web Development"
                     />
                     <div className="media-body">
-                      <h5>Testing for perfection</h5>
+                      <h5>Demo Testing for perfection</h5>
                       Donec volutpat tincidunt neque, vitae lobortis libero
                       mattis sed tempus.
                     </div>
@@ -177,7 +98,7 @@ class Home extends React.Component {
                       alt="Web Development"
                     />
                     <div className="media-body">
-                      <h5>Discussion of the idea</h5>
+                      <h5>Demo Discussion of the idea</h5>
                       Donec volutpat tincidunt neque, vitae lobortis libero
                       mattis sed tempus.
                     </div>
@@ -196,7 +117,7 @@ class Home extends React.Component {
                       alt="Web Development"
                     />
                     <div className="media-body">
-                      <h5>Modern style</h5>
+                      <h5>Demo Modern style</h5>
                       Donec volutpat tincidunt neque, vitae lobortis libero
                       mattis sed tempus.
                     </div>
@@ -215,7 +136,7 @@ class Home extends React.Component {
                       alt="Web Development"
                     />
                     <div className="media-body">
-                      <h5>Web Development</h5>
+                      <h5>Demo Web Development</h5>
                       Donec volutpat tincidunt neque, vitae lobortis libero
                       mattis sed tempus.
                     </div>
@@ -234,7 +155,7 @@ class Home extends React.Component {
                       alt="Web Development"
                     />
                     <div className="media-body">
-                      <h5>Elaboration of the core</h5>
+                      <h5>Demo Elaboration of the core</h5>
                       Donec volutpat tincidunt neque, vitae lobortis libero
                       mattis sed tempus.
                     </div>
@@ -781,36 +702,6 @@ class Home extends React.Component {
             </div>
           </div>
         </section>
-        {/* <!-- Testimonial and Clients End -->
-    <!-- Call To Action 2 Start --> */}
-        <section className="cta cta2" data-aos="fade-up" data-aos-delay="0">
-          <div className="container">
-            <div className="cta-content d-xl-flex align-items-center justify-content-around text-center text-xl-left">
-              <div
-                className="content"
-                data-aos="fade-right"
-                data-aos-delay="200"
-              >
-                <h2>FOR BUILDING THE MODERN WEBSITE</h2>
-                <p>
-                  Packed with all the goodies you can get, Kallyas is our
-                  flagship premium template.
-                </p>
-              </div>
-              <div
-                className="subscribe-btn"
-                data-aos="fade-left"
-                data-aos-delay="400"
-                data-aos-offset="0"
-              >
-                <a href="#" className="btn btn-primary">
-                  Join Newsletter
-                </a>
-              </div>
-            </div>
-          </div>
-        </section>
-        {/* <!-- Call To Action 2 End --> */}
       </>
     );
   }
