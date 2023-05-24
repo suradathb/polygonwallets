@@ -20,19 +20,19 @@ class Abount extends React.Component {
             <div className="row no-gutters col-lg-12">
               <form className="col-lg-12" method="get">
                 <div className="form-group col-lg-6">
-                  <label for="formGroupExampleInput">Example label</label>
+                  <label htmlFor="formGroupExampleInput">Example label</label>
                   <input
                     type="text"
-                    class="form-control"
+                    className="form-control"
                     id="formGroupExampleInput"
                     placeholder="Example input"
                   />
                 </div>
                 <div className="form-group col-lg-6">
-                  <label for="formGroupExampleInput">Example label</label>
+                  <label htmlFor="formGroupExampleInput">Example label</label>
                   <input
                     type="text"
-                    class="form-control"
+                    className="form-control"
                     id="formGroupExampleInput"
                     placeholder="Example input"
                   />
